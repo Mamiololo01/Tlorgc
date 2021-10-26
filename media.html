@@ -1,0 +1,107 @@
+<html>
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>TLORGC</title>
+        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+  </head>
+
+    <body>
+      <section class="header">
+        <nav>
+          <a href="index.html"><img src="images/logo.jpeg"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+              <li><a href="index.html">HOME<a/></li>
+              <li><a href="about.html">ABOUT<a/></li>
+              <li><a href="program.html">PROGRAM<a/></li>
+              <li><a href="media.html">MEDIA<a/></li>
+              <li><a href="contact.html">CONTACT<a/></li>
+
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+          <div class="text-box">
+          <hi>MEDIA</hi>
+
+      </section>
+
+<!--- media page content ---------------->
+
+      <section class="media-content">
+        <div class="row">
+          <div class="media-left">
+            <img src="images/anniversary.jpeg">
+            <h2>19th year Church Anniversary</h2>
+            <p>We welcome you to our annual church anniversary. This is the 19th anniversary tittled "In his presence with thanksgiving". The program starts with a 5days revival on Monday 15th Nov - Friday 19th with the closing program on Sunday 21st Nov. You cannot afford to miss this program. We will be expecting you!</p>
+
+          </div>
+
+         <div class="col">
+          <div class="media-right">
+          <h3>Upcoming events</h3>
+          <div>
+            <span>Christmas carol</span>
+
+          </div>
+          <div>
+            <span>December 2021 quarterly prayer</span>
+
+          </div>
+          <div>
+            <span>Thanksgiving service, Jan. 2022</span>
+
+          </div>
+
+          <div>
+            <span>Children anniversary March 2022</span>
+
+          <div>
+
+        </div>
+
+
+
+
+
+
+      </section>
+
+
+
+  <!---<footer------------------>
+
+        <section class="footer">
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+
+          <p>Copyright (c) 2021. All rights reserved</p>
+
+        </section>
+
+
+
+<!--- Javascript for Toggle Menu---------------->
+<script>
+
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right = "0";
+          }
+          function hideMenu(){
+              navLinks.style.right = "-200px";
+          }
+
+</script>
+
+
+
+</body>
+</html>

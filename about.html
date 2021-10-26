@@ -1,0 +1,97 @@
+<html>
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>TLORGC</title>
+        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  </head>
+
+    <body>
+      <section class="header">
+        <nav>
+          <a href="index.html"><img src="images/logo.jpeg"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+              <li><a href="index.html">HOME<a/></li>
+              <li><a href="about.html">ABOUT<a/></li>
+              <li><a href="program.html">PROGRAM<a/></li>
+              <li><a href="media.html">MEDIA<a/></li>
+              <li><a href="contact.html">CONTACT<a/></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+        </nav>
+
+        <div class="text-box">
+          <hi>ABOUT US</hi>
+
+
+        </div>
+
+      </section>
+<!--- About us content ---------------->
+      <section class="about-us">
+
+          <div class="row">
+              <div class="about-col">
+                <h1>Mission Statement</h1>
+                <p>To reach and influence the world by building a large Christ-centred, Bible-based church, changing mindsets and empowering people to lead and impact in every sphere of life</p>
+
+
+              </div>
+
+              <div class="about-col">
+                <img src="images/pastor.jpeg">
+
+
+              </div>
+
+          </div>
+
+
+
+
+      </section>
+
+
+
+        </section>
+
+
+  <!---<footer------------------>
+
+        <section class="footer">
+          <h4>ABOUT US</h4>
+          <p>TLORGC; aka (Palace of Mercy) is a full gospel ministry devoted to breaking spiritual chains for a fulfiled destiny.</p>
+          <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+          <p>Copyright (c) 2021. All rights reserved</p>
+
+        </section>
+
+
+
+<!--- Javascript for Toggle Menu---------------->
+<script>
+
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right = "0";
+          }
+          function hideMenu(){
+              navLinks.style.right = "-200px";
+          }
+
+</script>
+
+
+
+</body>
+</html>
